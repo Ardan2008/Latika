@@ -1,0 +1,247 @@
+/* === DASAR TATA LETAK === */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #c9e8ff, #f0f0f0);
+  font-family: "Poppins", sans-serif;
+  transition: background 0.6s ease;
+}
+
+/* === CONTAINER === */
+.container {
+  background: url(image/bg.png) center/cover no-repeat;
+  color: #222;
+  text-align: center;
+  width: 45%;
+  min-height: 350px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* === ANIMASI MASUK CONTAINER === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* === FOTO PROFIL === */
+.profile-img {
+  width: 130px;
+  height: 150px;
+  border-radius: 40% / 45%;
+  object-fit: cover;
+  border: 3px solid aqua;
+  transition: all 0.4s ease;
+}
+
+.profile-img:hover {
+  border-radius: 50%;
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* === TEKS === */
+.container h1 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #111;
+  margin-bottom: 10px;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  animation: glowText 2.5s infinite alternate ease-in-out,
+             slideText 6s linear infinite;
+}
+
+.container p {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* === ANIMASI TEKS === */
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #00bfff, 0 0 10px #00ffff;
+  }
+  50% {
+    text-shadow: 0 0 15px #00ffff, 0 0 30px #00bfff;
+  }
+  100% {
+    text-shadow: 0 0 5px #00bfff, 0 0 10px #00ffff;
+  }
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+/* === GARIS PEMBATAS === */
+.divider {
+  border: none;
+  height: 4px;
+  width: 80%;
+  background: aqua;
+  border-radius: 10px;
+  margin: 10px auto 20px;
+}
+
+/* === SOSIAL MEDIA === */
+.socials {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.socials .icon {
+  color: #0d6efd;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #00bfff;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.socials .icon:hover {
+  color: #fff;
+  background: #00bfff;
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+}
+
+/* === TOMBOL === */
+button {
+  background: linear-gradient(135deg, #00ffff, #00bfff);
+  color: #111;
+  border-radius: 25px;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #00e0ff, #00aaff);
+  transform: scale(1.08);
+  box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* === FOOTER === */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* HP kecil (<=480px) */
+@media (max-width: 480px) {
+  .container {
+    width: 85%;
+    padding: 20px;
+  }
+
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+
+  .profile-img {
+    width: 110px;
+    height: 130px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+
+  .container h1 {
+    font-size: 25px;
+  }
+
+  .container p {
+    font-size: 15px;
+  }
+}
+
+/* Laptop (769px - 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    width: 55%;
+  }
+}
+
+/* Desktop besar (>1200px) */
+@media (min-width: 1201px) {
+  .container {
+    width: 40%;
+  }
+}
