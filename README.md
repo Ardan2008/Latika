@@ -9,7 +9,7 @@ Proyek ini bertujuan untuk memahami cara membuat struktur halaman, mengatur tamp
 - **JavaScript** → Memberikan efek serta interaksi dinamis
 
 ## 📁 Struktur Proyek
-| Nama File   | Fungsi |
+| *Nama File* | *Fungsi* |
 |--------------|--------|
 | **index.html** | Struktur utama halaman |
 | **style.css**  | Desain dan tampilan website |
