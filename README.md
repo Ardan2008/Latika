@@ -1,29 +1,29 @@
 # 🌐 Latika Day 2
 
-**Latika Day 2** merupakan hasil pembelajaran dasar pengembangan web menggunakan **HTML**, **CSS**, dan **JavaScript**.  
-Proyek ini bertujuan untuk memahami cara membuat struktur halaman, mengatur tampilan dengan desain modern, serta menambahkan interaktivitas sederhana agar website menjadi menarik dan responsif.
+**Latika Day 2** is the result of learning the fundamentals of web development using **HTML**, **CSS**, and **JavaScript**.  
+This project aims to understand how to build a page structure, design a modern layout, and add simple interactivity to make the website engaging and responsive.
 
-## 🧩 Teknologi yang Digunakan
-- **HTML** → Menyusun struktur dan konten halaman  
-- **CSS** → Mendesain tampilan dan tata letak visual  
-- **JavaScript** → Memberikan efek serta interaksi dinamis
+## 🧩 Technologies Used
+- **HTML** → Builds the structure and content of the page  
+- **CSS** → Designs the layout and visual appearance  
+- **JavaScript** → Adds dynamic effects and interactivity
 
-## 📁 Struktur Proyek
-| *Nama File* | *Fungsi* |
-|--------------|--------|
-| **index.html** | Struktur utama halaman |
-| **style.css**  | Desain dan tampilan website |
-| **script.js**  | Logika dan interaktivitas |
+## 📁 Project Structure
+| *File Name* | *Function* |
+|--------------|------------|
+| **index.html** | Main structure of the webpage |
+| **style.css**  | Website design and visual styling |
+| **script.js**  | Logic and interactivity |
 
-## 🚀 Hasil Akhir
-Lihat hasil proyek di sini:  
+## 🚀 Final Result
+Check out the project here:  
 👉 [https://ardan2008.github.io/Latika/](https://ardan2008.github.io/Latika/)
 
-## 🎯 Tujuan Pembelajaran
-- Mengenal dasar pembuatan website statis  
-- Memahami peran HTML, CSS, dan JavaScript  
-- Menerapkan konsep desain dan interaktivitas sederhana  
-- Membangun fondasi untuk pengembangan web lanjutan
+## 🎯 Learning Objectives
+- Understand the basics of building a static website  
+- Learn the roles of HTML, CSS, and JavaScript  
+- Apply design concepts and simple interactivity  
+- Build a foundation for advanced web development
 
-## 👨‍💻 Pembuat
-Dibuat oleh **Ardan** sebagai hasil kegiatan **Latika Day 2**.
+## 👨‍💻 Creator
+Created by **Ardan** as part of the **Latika Day 2** activity.
