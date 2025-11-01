@@ -10,9 +10,15 @@ Proyek ini bertujuan untuk memahami cara membuat struktur halaman, mengatur tamp
 
 ## 📁 Struktur Proyek
 Latika/
-├── index.html   # Struktur utama halaman
-├── style.css    # Desain dan tampilan website
-└── script.js    # Logika dan interaktivitas
+│
+├── index.html
+│   # Struktur utama halaman
+│
+├── style.css
+│   # Desain dan tampilan website
+│
+└── script.js
+    # Logika dan interaktivitas
 
 ## 🚀 Hasil Akhir
 Lihat hasil proyek di sini:  
